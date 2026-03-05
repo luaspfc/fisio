@@ -105,3 +105,8 @@ temp/
 *.db
 *.sqlite
 *.sqlite3
+
+# Exported archives and extracted duplicate directories
+*.tar
+*.tar.gz
+conecta_fisio/
