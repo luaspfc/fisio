@@ -1,0 +1,40 @@
+{
+  "name": "Minha Assistente do Negócio",
+  "short_name": "Assistente",
+  "description": "Assistente virtual para seu negócio de alimentos caseiros",
+  "theme_color": "#E85D04",
+  "background_color": "#FFF8F0",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "start_url": "/",
+  "lang": "pt-BR",
+  "categories": ["business", "food"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Falar com a Assistente",
+      "url": "/conversar",
+      "description": "Abrir o assistente de voz"
+    },
+    {
+      "name": "Registrar Venda",
+      "url": "/vendas",
+      "description": "Registrar uma nova venda"
+    }
+  ]
+}
